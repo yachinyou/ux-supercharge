@@ -37,6 +37,7 @@ class App extends Component {
           <Route path="/" exact component={SellSheet} />
           <Route path="/thankyou29" exact component={ThankYou29} />
           <Route path="/thankyou9" exact component={ThankYou9} />
+          <Route path="/thankyou" exact component={ThankYou} />
           <Route path="/about" exact component={AboutPage} />
         </div>
       </BrowserRouter>
