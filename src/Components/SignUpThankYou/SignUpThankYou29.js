@@ -19,9 +19,9 @@ class SignUpThankYou extends Component {
                             <h6>Hello there! <span className="bold">We are still working hard on bringing UX Supercharge to you at this moment!</span></h6>
                             <h6>Sign up for early access and you'll be the first to know when it's ready.</h6>
                             <div className="form-container">
-                                <form action="https://bonsterxbonster.us2.list-manage.com/subscribe/post" method="POST">
+                                <form action="https://uxchallenge.us2.list-manage.com/subscribe/post" method="POST">
                                     <Input type="hidden" name="u" value="7cdd3e7148bfb13d3deb11a50" />
-                                    <Input type="hidden" name="id" value="75e70fa2e8" />    
+                                    <Input type="hidden" name="id" value="2c1a5979a7" />    
                                     <Input className="email-input float-left" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" placeholder="Your Email"/>
                                     <Button type="submit" className="float-left">Get early access</Button>
                                 </form>
