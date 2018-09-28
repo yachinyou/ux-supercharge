@@ -7,6 +7,8 @@ import Hero from './Components/Hero/Hero';
 import SellSheet from './Components/SellSheet/SellSheet';
 import Footer from './Components/Footer/Footer';
 import ThankYou from './Components/SignUpThankYou/SignUpThankYou';
+import ThankYou29 from './Components/SignUpThankYou/SignUpThankYou29';
+import ThankYou9 from './Components/SignUpThankYou/SignUpThankYou9';
 import AboutPage from './Components/About/About';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -33,9 +35,9 @@ class App extends Component {
           <Route path="/" component={NavBar} />
           <Route path="/" exact component={Hero} />
           <Route path="/" exact component={SellSheet} />
-          <Route path="/thankyou" exact component={ThankYou} />
+          <Route path="/thankyou29" exact component={ThankYou29} />
+          <Route path="/thankyou9" exact component={ThankYou9} />
           <Route path="/about" exact component={AboutPage} />
-          <Route path="/" exact component={Footer} />
         </div>
       </BrowserRouter>
     );

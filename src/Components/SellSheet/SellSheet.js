@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './SellSheet.css';
+import { Button } from 'reactstrap';
 
 import placementImage from '../../images/placement_img.png';
 import quoteProfile from '../../images/quote-profile.png';
@@ -191,6 +192,52 @@ class SellSheet extends Component {
                             <img className="width-75" src={itemStoryboard} alt="synthesized user survey from 50 responses" />
                         </div>
                         <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12"></div>
+                    </div>
+                </div>
+                <div className="sell-section paper">
+                    <h2 className="large-sell-header">Supercharge your UX portfolio</h2>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-xl-2 col-lg-2 col-md-1 col-sm-12 col-12"></div>
+                            <div className="col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12 sell-text">
+                                <div className="panel-header">
+                                    <h4>Supercharge Pro Kit</h4>
+                                    <p className="price-number">$29.99</p>
+                                </div>
+                                <div className="price-panel">
+                                    <ul className="feature-list">
+                                        <li>Your selected design challenge</li>
+                                        <li>Step-by-step UX process guide</li>
+                                        <li>Industry market data</li>
+                                        <li>Synthesized user survey from 50 reponses</li>
+                                        <li><span className="bold">3 case study feedback</span> from experienced designers</li>
+                                        <li><span className="bold">3 customer interview audio recordings</span> with transcript</li>
+                                        <li><span className="bold">High-res device mockup template</span> in PSD</li>
+                                        <li><span className="bold">Persona template</span> in .sketch</li>
+                                        <li><span className="bold">Customer journey map template</span> in .sketch</li>
+                                        <li><span className="bold">Storyboard template</span> with ready-to-use graphics in .sketch</li>
+                                    </ul>
+                                    <Button className="buy-button" size="lg" href={process.env.PUBLIC_URL + '/thankyou29'}>Buy</Button>
+                                </div>
+                            </div>
+                            <div className="col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12 sell-text">
+                                <div className="panel-header">
+                                    <h4>Supercharge Basic Kit</h4>
+                                    <p className="price-number">$9.99</p>
+                                </div>
+                                <div className="price-panel">
+                                    <ul className="feature-list">
+                                        <li>Your selected design challenge</li>
+                                        <li>Step-by-step UX process guide</li>
+                                        <li>Industry market data</li>
+                                        <li>Synthesized user survey from 50 reponses</li>
+                                        <li><span className="bold">1 case study feedback</span> from experienced designers</li>
+                                    </ul>
+                                    <Button className="buy-button" size="lg" href={process.env.PUBLIC_URL + '/thankyou9'}>Buy</Button>
+                                </div>
+                            </div>
+                            <div className="col-xl-2 col-lg-2 col-md-1 col-sm-12 col-12"></div>
+                        </div>
                     </div>
                 </div>
             </div>    

@@ -24,6 +24,19 @@
     max-width: 36em;
 }
 
+.hero-value Button{
+    width: 100%;
+    background-color: #FF7714;
+    border: 1px solid #FF7714;
+    color: #fff;
+    height: 4em;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-top: 1em;
+}
+
 .hero-value .form-container {
     margin-top: 2em;
 }

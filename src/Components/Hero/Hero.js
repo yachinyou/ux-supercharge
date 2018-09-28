@@ -16,7 +16,6 @@ class Hero extends Component {
                     <div className="hero-value" >
                         <h1>Create UX Case Studies that Get You Hired</h1>
                         <h6>The all-in-one <span className="bold">design challenge kit</span> that makes it easy for you <br/> to create case studies employers are looking for.</h6>
-                        <Button type="submit" className="float-left">Buy Now</Button>
                     </div>
                 </div>
             </div>

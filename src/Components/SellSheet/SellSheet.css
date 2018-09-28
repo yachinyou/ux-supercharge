@@ -63,7 +63,8 @@
 h2.large-sell-header {
     font-size: 1.75em;
     font-weight: 900;
-    margin: 3em;
+    margin: 2em 1em;
+    line-height: 1.5em;
 }
 
 
@@ -152,4 +153,66 @@ h2.large-sell-header {
 
 .brick {
     margin-top: 4em;
+}
+
+/* PRICING */
+
+.panel-header {
+    background: #3FD9C7;
+    padding: 2em;
+    text-align: center;
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    margin-top: 1em;
+}
+
+.panel-header h4 {
+    font-size: 1.25em;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 0.05em;
+}
+
+.panel-header p.price-number {
+    font-size: 2em;
+    font-weight: 900;
+    color: #fff;
+}
+
+.price-panel {
+    border-radius: 0.25em;
+    border: 0 solid #EDF4F7;
+    box-shadow: 0 12px 25px 0 rgba(0,0,0,0.05);
+    padding: 2.5em;
+}
+
+.price-panel ul {
+    list-style: none;
+    padding: 0;
+}
+
+.price-panel ul li{
+    margin-bottom: 1.5em;
+    line-height: 1.75em;
+    letter-spacing: 0.05em;
+}
+
+.price-panel .buy-button{
+    width: 100%;
+    background-color: #FF7714;
+    border: 1px solid #FF7714;
+    color: #fff;
+    padding: 1em 0;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-top: 1em;
+}
+
+.price-panel .buy-button:hover {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #FF7714;
+    color: #FF7714;
 }
