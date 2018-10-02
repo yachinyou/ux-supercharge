@@ -22,7 +22,7 @@ import itemJourneyMap from '../../images/item_journey_map.png';
 import itemStoryboard from '../../images/item_storyboard.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { faStar, faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 
 class SellSheet extends Component {
 
@@ -69,7 +69,7 @@ class SellSheet extends Component {
                         <div className="col-xl-3 col-lg-3 col-md-2 col-sm-12 col-12"></div>
                         <div className="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12">
                             <h3>Here's everything you need to create a winning case study — fast.</h3>
-                            <p>Our design challenge kit features an <span className="bold">industry focused design challenge</span>, <span className="bold">user research</span>, <span className="bold">market data</span>, <span className="bold">constructive feedback</span> and much more.</p>
+                            <p>Our design challenge kit features an <span className="bold">industry focused design challenge</span>, <span className="bold">user research</span>, <span className="bold">market data</span>, <span className="bold">constructive feedback</span> and much more that makes it easy for you to show the best case studies to the right employers.</p>
                             <img src={designChallengeKit} alt="UX case studies can take weeks to complete" />
                         </div>
                         <div className="col-xl-3 col-lg-3 col-md-2 col-sm-12 col-12"></div>
@@ -86,6 +86,18 @@ class SellSheet extends Component {
                             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 sell-text">
                                 <h2>Show employers how you solve customer problems in their industry.</h2>
                                 <h6>All design challenges are based on real world problems in these trending product categories:</h6>
+                                <ul className="industry-list">
+                                    <li><FontAwesomeIcon icon="check-circle" color="#3BD14B" size="lg" /><span>E-Commerce</span></li>
+                                    <li><FontAwesomeIcon icon="check-circle" color="#3BD14B" size="lg" /><span>Smart Home</span></li>
+                                    <li><FontAwesomeIcon icon="check-circle" color="#3BD14B" size="lg" /><span>Transportation</span></li>
+                                    <li><FontAwesomeIcon icon="check-circle" color="#3BD14B" size="lg" /><span>Productivity</span></li>
+                                    <li><FontAwesomeIcon icon="check-circle" color="#3BD14B" size="lg" /><span>Health & Fitness</span></li>
+                                    <li><FontAwesomeIcon icon="check-circle" color="#3BD14B" size="lg" /><span>Education</span></li>
+                                    <li><FontAwesomeIcon icon="check-circle" color="#3BD14B" size="lg" /><span>Communication</span></li>
+                                    <li><FontAwesomeIcon icon="check-circle" color="#3BD14B" size="lg" /><span>Fintech</span></li>
+                                    <li><FontAwesomeIcon icon="check-circle" color="#3BD14B" size="lg" /><span>Travel</span></li>
+                                    <li><FontAwesomeIcon icon="check-circle" color="#3BD14B" size="lg" /><span>Media</span></li>
+                                </ul>
                             </div>
                             <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
                         </div>

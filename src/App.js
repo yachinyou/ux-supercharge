@@ -31,7 +31,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <ReactTitle title="Live Code Help" />
+          <ReactTitle title="UX Supercharge" />
           <Route path="/" component={NavBar} />
           <Route path="/" exact component={Hero} />
           <Route path="/" exact component={SellSheet} />

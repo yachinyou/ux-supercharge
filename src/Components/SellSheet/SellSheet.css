@@ -108,6 +108,25 @@ h2.large-sell-header {
     max-width: 40em;
 }
 
+ul.industry-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 0.875em;
+}
+
+ul.industry-list li{
+    margin-bottom: 0.75em;
+}
+
+ul.industry-list svg {
+    margin-right: 0.5em;
+}
+
+ul.industry-list span {
+    opacity: 0.6;
+}
+
+
 .whats-inside {
     padding: 2em;
 }
