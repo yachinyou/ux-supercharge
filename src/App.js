@@ -14,10 +14,11 @@ import AboutPage from './Components/About/About';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle, faStar } from '@fortawesome/free-solid-svg-icons';
+import ReactGA from 'react-ga';
+
 library.add(faCheckCircle, faStar);
 
 //Update Google analytics
-import ReactGA from 'react-ga';
 ReactGA.initialize('UA-648673-29');
 ReactGA.pageview(window.location.pathname + window.location.search);
 

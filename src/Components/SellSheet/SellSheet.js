@@ -171,7 +171,7 @@ class SellSheet extends Component {
                             <img className="width-50" src={itemFeedback} alt="3 constructive feedback from experienced designers" />
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 product-item brick">
-                            <h4>Synthesized user survey from 50 responses <span className="pro-kit-tag"><FontAwesomeIcon icon="star" color="#1147FF" size="lg" />Pro Kit</span></h4>
+                            <h4>3 customer interview audio recordings with transcript <span className="pro-kit-tag"><FontAwesomeIcon icon="star" color="#1147FF" size="lg" />Pro Kit</span></h4>
                             <div className="blue-deco-line"></div>
                             <img className="width-50" src={itemInterviewVideo} alt="synthesized user survey from 50 responses" />
                         </div>
