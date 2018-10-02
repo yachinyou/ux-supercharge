@@ -17,9 +17,9 @@ import { faCheckCircle, faStar } from '@fortawesome/free-solid-svg-icons';
 library.add(faCheckCircle, faStar);
 
 //Update Google analytics
-// import ReactGA from 'react-ga';
-// ReactGA.initialize('UA-648673-27');
-// ReactGA.pageview(window.location.pathname + window.location.search);
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-648673-29');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class App extends Component {
 
